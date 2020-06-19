@@ -10,6 +10,6 @@ javascript:
   (function () {
     var mod = document.createElement('script');
     mod.src = 'https://manuelgarciaf.github.io/kittens-autoclicker/autoclicker.js';
-    document.head.appendChild(mod);
+    document.body.appendChild(mod);
   })();
 ```
