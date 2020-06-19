@@ -9,7 +9,7 @@ Add this to a bookmark and launch with kittens open.
 javascript:
   (function () {
     var mod = document.createElement('script');
-    mod.src = 'https://raw.githubusercontent.com/ManuelGarciaF/kittens-autoclicker/master/autoclicker.js';
+    mod.src = 'https://manuelgarciaf.github.io/kittens-autoclicker/autoclicker.js';
     document.head.appendChild(mod);
   })();
 ```
