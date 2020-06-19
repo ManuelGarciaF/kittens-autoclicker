@@ -16,7 +16,7 @@ const sendHunters = () => document
 
 log('Starting autoclicker loop');
 setInterval(() => {
-  if (checkHuntsLeft > 9) {
+  if (checkHuntsLeft() > 9) {
     sendHunters();
     log('Sending hunters');
   }
