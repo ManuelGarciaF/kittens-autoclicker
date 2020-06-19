@@ -1,0 +1,25 @@
+{
+  "name": "kittens-autoclicker",
+  "version": "1.0.0",
+  "description": "Autoclicker for kittens game.",
+  "main": "autoclicker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelGarciaF/kittens-autoclicker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelGarciaF/kittens-autoclicker/issues"
+  },
+  "homepage": "https://github.com/ManuelGarciaF/kittens-autoclicker#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2"
+  }
+}
