@@ -1,5 +1,7 @@
 /* eslint-disable no-console */
 
+const log = (message) => console.log(`Autoclicker: ${message}.`);
+
 const checkHuntsLeft = () => Number(
   document
     .getElementById('fastHuntContainerCount')
@@ -12,9 +14,10 @@ const sendHunters = () => document
   .firstElementChild
   .click();
 
-console.log('Starting autoclicker loop');
+log('Starting autoclicker loop');
 setInterval(() => {
   if (checkHuntsLeft > 9) {
     sendHunters();
+    log('Sending hunters');
   }
 }, 1000);
