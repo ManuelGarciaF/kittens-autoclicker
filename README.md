@@ -13,3 +13,9 @@ javascript:
     document.body.appendChild(mod);
   })();
 ```
+
+## Features
+
+Currently, this autoclicker can:
+
+- Send hunters automatically.
