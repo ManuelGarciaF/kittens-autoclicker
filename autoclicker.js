@@ -2,12 +2,16 @@
 
 const log = (message) => console.log(`Autoclicker: ${message}.`);
 
-const checkHuntsLeft = () => Number(
-  document
-    .getElementById('fastHuntContainerCount')
-    .textContent
-    .split(' ')[0],
-);
+const checkHuntsLeft = () => {
+  if (document.getElementById('fastHuntContainer').style.visibility === 'hidden') return 0;
+
+  return Number(
+    document
+      .getElementById('fastHuntContainerCount')
+      .textContent
+      .split(' ')[0],
+  );
+};
 
 const sendHunters = () => document
   .getElementById('fastHuntContainer')
