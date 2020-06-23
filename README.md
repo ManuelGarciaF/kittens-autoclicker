@@ -18,4 +18,6 @@ javascript:
 
 Currently, this autoclicker can:
 
-- Send hunters automatically.
+- Send hunters.
+
+- Craft steel.
